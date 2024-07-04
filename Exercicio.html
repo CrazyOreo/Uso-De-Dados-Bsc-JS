@@ -1,0 +1,28 @@
+<html>
+    <body>
+        <script>
+            /*function pessoa(){
+                this.nome = "lucas"
+                this.idade = 20
+                this.emprego = "professor"
+            }*/
+
+            function Animal(nome, peso){
+                this.nome=nome
+                this.peso=peso
+                if (nome === undefined||nome===""){
+                    this.nome="Sem nome"
+                }
+                if(peso===undefined){
+                    this.peso=("Sem peso")
+                }
+            }
+
+           var animal1 = new Animal ("Gato" ,"12KG")
+            var animal2 = new Animal("cachorro", "20kg")
+            alert(animal1.nome, animal1.peso)
+            alert(animal2.peso)
+        </script>
+    </body>
+</html>
+
